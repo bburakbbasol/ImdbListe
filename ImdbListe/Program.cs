@@ -44,7 +44,7 @@ filmler.Sort((x, y) => x.ImdbPuani.CompareTo(y.ImdbPuani));
 filmler.Reverse();
 foreach (var film in filmler)
 {
-	Console.WriteLine("Filmimizin ismi"+film.FilmIsmi+" ve fimin IMDB puanı= "+film.ImdbPuani);
+	Console.WriteLine("Filmimizin ismi: "+film.FilmIsmi+" ve fimin IMDB puanı= "+film.ImdbPuani);
 
 	
 }
@@ -55,7 +55,7 @@ foreach (var film in filmler)
 	{
 
 		Console.WriteLine("IMDB puanı 4 ile 9 arasında olan filmler");
-		Console.WriteLine("Filmimizin ismi" + film.FilmIsmi + " ve fimin IMDB puanı= " + film.ImdbPuani);
+		Console.WriteLine("Filmimizin ismi: " + film.FilmIsmi + " ve fimin IMDB puanı= " + film.ImdbPuani);
 
 	}
 }
